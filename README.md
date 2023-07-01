@@ -47,7 +47,7 @@ Projeto inspirado na arquitetura do instagram onde crio uma api e simulo uma red
     python manage.py runserver
 
 8. Acesse a aplicação em seu navegador:
-    http://localhost:8000/
+    - http://localhost:8000/
 
 
 ## Administração
