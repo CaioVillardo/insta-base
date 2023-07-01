@@ -16,22 +16,34 @@ Projeto inspirado na arquitetura do instagram onde crio uma api e simulo uma red
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 2. Acesse a pasta do projeto:
+    
+    ```shell
     cd nome-do-repositorio
 
 3. Crie um ambiente virtual e ative-o:
+
+    ```shell
     python3 -m venv venv
     source venv/bin/activate
 
 4. Instale as dependências do projeto:
+
+    ```shell
     pip install -r requirements.txt
 
 5. Execute as migrações do banco de dados:
+
+    ```shell
     python manage.py migrate
 
 6. Crie um superusuário para acessar a área de administração:
+
+    ```shell
     python manage.py createsuperuser
 
 7. Inicie o servidor de desenvolvimento:
+
+    ```shell
     python manage.py runserver
 
 8. Acesse a aplicação em seu navegador:
@@ -42,7 +54,7 @@ Projeto inspirado na arquitetura do instagram onde crio uma api e simulo uma red
     http://localhost:8000/admin/
 
 # Contato
-    Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato pelo email cvjardelino@gmail.com ou pelo Linkedin https://www.linkedin.com/in/caio-villardo-106648184/
+    - Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato pelo email cvjardelino@gmail.com ou pelo Linkedin https://www.linkedin.com/in/caio-villardo-106648184/
 
 
 
